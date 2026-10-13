@@ -4,7 +4,7 @@
 
 ### Beyond Safe Execution: Safe Online Reinforcement Learning for Autonomous Driving with Value Calibration and Adaptive Guidance
 
-Zeqiao Li · Yijing Wang · Haoyu Wang · Zheng Li · Zhiqiang Zuo · Chuan Hu
+Zeqiao Li · Yijing Wang · Haoyu Wang · Zheng Li · Zhiqiang Zuo
 
 ![Paper status](https://img.shields.io/badge/arXiv-link%20coming%20soon-lightgrey.svg)
 [![Video](https://img.shields.io/badge/video-watch%20the%20demo-0b7285.svg)](https://lzqw.github.io/SOAR-Flow/)
