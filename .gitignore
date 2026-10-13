@@ -1,0 +1,11 @@
+# Paper files are kept locally and released separately on arXiv.
+*.pdf
+*.tex
+*.bib
+*.bbl
+*.cls
+*.bst
+*.zip
+*.tar.gz
+arxiv_source/
+qa/
