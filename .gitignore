@@ -9,3 +9,13 @@
 *.tar.gz
 arxiv_source/
 qa/
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+code/runs/
+code/results/
+*.pkl
+*.npz
+*.npy

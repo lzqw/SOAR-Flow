@@ -65,4 +65,6 @@ The arXiv link will be added here after the paper is announced.
 
 ## Availability
 
-This repository presents the project and demonstration video. Implementation and data availability will be announced here.
+Reference research programs are available in [`code/`](code/README.md), including Flow policies, Gaussian critics, CBF–MPC control, training, evaluation, and component tests. See the [code guide](code/README.md) for installation and entry points.
+
+The demonstration video remains the main project overview. Dataset and model releases will be announced separately.

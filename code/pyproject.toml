@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soar-flow-reference"
+version = "0.1.0"
+description = "Reference research code for SOAR-Flow: Flow policies, Gaussian critics, safe online refinement and CBF-MPC."
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+  "dill==0.3.8",
+  "dm-haiku==0.0.14",
+  "gymnasium==1.2.2",
+  "jax==0.4.27",
+  "jaxlib==0.4.27",
+  "chex==0.1.87",
+  "metadrive-simulator==0.4.3",
+  "numpy>=1.26,<2.0",
+  "optax==0.2.5",
+]
+
+[project.optional-dependencies]
+cuda12 = ["jax-cuda12-pjrt==0.4.27", "jax-cuda12-plugin==0.4.27"]
+video = ["matplotlib>=3.8,<3.11", "opencv-python>=4.8,<4.12"]
+dev = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+include = ["relax*", "scripts*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

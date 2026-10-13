@@ -1,0 +1,415 @@
+{
+  "source_revision": "396a9b0b2aad84a27a8a21aaf97cefdfbf02b0a1",
+  "files": [
+    {
+      "path": "relax/__init__.py",
+      "sha256": "98fc3f0eb68fb9e020094f5e02d199f6f47ec064c34110f3528a4de9e28267ba",
+      "bytes": 71
+    },
+    {
+      "path": "relax/algorithm/__init__.py",
+      "sha256": "b80abc704bc94e80512a610c19d6bf475250c5045163367357e03c0ebdd84199",
+      "bytes": 56
+    },
+    {
+      "path": "relax/algorithm/base.py",
+      "sha256": "9ee6bdc3c1fd2fdee0c4d8d1310f992b2e2647b6d23cfce8d73684dd83730866",
+      "bytes": 4221
+    },
+    {
+      "path": "relax/algorithm/guardian_calql.py",
+      "sha256": "266b3de79b361d258456cd9a83c261e9d5e82aad0d6f5be6fa2adc5b8e2fb971",
+      "bytes": 64309
+    },
+    {
+      "path": "relax/algorithm/guardian_calql_v2_2_simple.py",
+      "sha256": "6f959ff9f757c82b643771561db27a939d7ab3d3a5c7abe0cf158dbabd56048d",
+      "bytes": 41274
+    },
+    {
+      "path": "relax/algorithm/guardian_dsac_flow_paper.py",
+      "sha256": "ac477a258ac0ec6848ad5d39cd5109a113cfee997e423ab388876791f6af9d9c",
+      "bytes": 24115
+    },
+    {
+      "path": "relax/algorithm/guardian_dsac_flow_v2_4.py",
+      "sha256": "d96f0f34d7bef64a0ab78e63dd191ce1411c3b126a855b4b668e5d3eb093e8cd",
+      "bytes": 35726
+    },
+    {
+      "path": "relax/algorithm/guardian_dsac_flow_v2_4_1.py",
+      "sha256": "06cebbc8313a41f5c116a447c5285a77038216619b46f52dac8a626c4ee01efc",
+      "bytes": 31365
+    },
+    {
+      "path": "relax/algorithm/guardian_dsac_flow_v2_4_2.py",
+      "sha256": "858894713d40185a9e8fa2085fb39116bc9917a37ea21a5849255bd97b42b89d",
+      "bytes": 28422
+    },
+    {
+      "path": "relax/algorithm/guardian_dsac_flow_v2_4_3.py",
+      "sha256": "bc865367bf24836e7fb0821d7cc35161a53fb8f5965fe651471b70205fff7756",
+      "bytes": 44447
+    },
+    {
+      "path": "relax/algorithm/guardian_dsac_v2_3.py",
+      "sha256": "7553dc3045d319518ecc32dfcb39ed7e6a25e885e2fa49692440a16687a7042a",
+      "bytes": 70814
+    },
+    {
+      "path": "relax/algorithm/safe_sac_jax.py",
+      "sha256": "0ffe7c8a16a3017e410d43093ca4fd56d1988da81994cdd26d8cd385b67cb91a",
+      "bytes": 25230
+    },
+    {
+      "path": "relax/buffer/__init__.py",
+      "sha256": "1125b6b7e8cac972fe8ea408c21f4600ba218f184e4b4915548371671d82f2df",
+      "bytes": 177
+    },
+    {
+      "path": "relax/buffer/base.py",
+      "sha256": "44e9fcc04c36dc288ca48f9f61c50585238e3a8031a0bf2288d55d7bbe3d58d2",
+      "bytes": 856
+    },
+    {
+      "path": "relax/buffer/seed_indexed.py",
+      "sha256": "6f66f23430c27db231848a129a89deee3092b2e862e9dbfb6c016e5eac7ba556",
+      "bytes": 10274
+    },
+    {
+      "path": "relax/buffer/tree.py",
+      "sha256": "6db0020c1e2db71b6908a8ccafe844af1984060b7aca23767dc68ed105a21752",
+      "bytes": 9420
+    },
+    {
+      "path": "relax/control/__init__.py",
+      "sha256": "5f3d927377cb10377818ce76e173d8677e13fc61a54a06f38a4e636f63f1c2f4",
+      "bytes": 472
+    },
+    {
+      "path": "relax/control/bspline_utils.py",
+      "sha256": "5109c6ff65f1d58aea378a98fe7ffc61c28c61d2643d666da210d9499472f378",
+      "bytes": 20081
+    },
+    {
+      "path": "relax/control/drive_mgf.py",
+      "sha256": "035641708286b8c792ba654a55806d10d62e7c498e71096b88b9dc4b138be650",
+      "bytes": 21129
+    },
+    {
+      "path": "relax/control/flat_nmpc.py",
+      "sha256": "0222f56f2dfa7521c86c8fd3247004a4c9aa9205bcbe582b98cc472a0b2cec4a",
+      "bytes": 81007
+    },
+    {
+      "path": "relax/env/__init__.py",
+      "sha256": "c58bd66ac17438746d6ca37b67083b43155df5a422f6dfb76c7ebf938233d64b",
+      "bytes": 198
+    },
+    {
+      "path": "relax/env/drive/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "relax/env/drive/lane_change.py",
+      "sha256": "280e0effb900ae4506676dfaf3ac3818bf2725a994ea87cfd6723441c9346a59",
+      "bytes": 18960
+    },
+    {
+      "path": "relax/env/drive/lane_change_mpc.py",
+      "sha256": "fefd6d7e7398c7037a80ace339560279f14528c59340fe6afeabd8c82109e74f",
+      "bytes": 174706
+    },
+    {
+      "path": "relax/env/drive/metasafe.py",
+      "sha256": "1703d0c227bbc743d896588b123d485664b3a89c3ba5778726e4c2b591d5d56b",
+      "bytes": 21545
+    },
+    {
+      "path": "relax/env/drive/observation_features.py",
+      "sha256": "3d8dff5ee6e73e8e5d9c3550457e118cf27fa7a6cb1c3109cf90dcf845bc5940",
+      "bytes": 2789
+    },
+    {
+      "path": "relax/env/drive/safe_sac.py",
+      "sha256": "4375ed57f7c121c8a3594314e93fce5d6f7bbb75ed4eb9e7e79f3c65b67e746a",
+      "bytes": 71754
+    },
+    {
+      "path": "relax/env/drive/safe_scenarios.py",
+      "sha256": "ac700c0fafece25b43709d1fc60ad20127921a9a35e90623926fecd1adb67ef9",
+      "bytes": 3801
+    },
+    {
+      "path": "relax/env/registration_utils.py",
+      "sha256": "36984e9254247e56312d41d67f0defa20636a62b4c481ddd06f1a0cfecfc6f7c",
+      "bytes": 167
+    },
+    {
+      "path": "relax/network/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "relax/network/blocks.py",
+      "sha256": "e1e4df81d3a1ad00270da1420f544f4612e30e0b311e2f4fad5a3479b6aa5cbd",
+      "bytes": 14296
+    },
+    {
+      "path": "relax/network/flow_policy.py",
+      "sha256": "feeb65d62d5b1aaea88866600998a551efe45e5b9097a750ea07eb720df44433",
+      "bytes": 6864
+    },
+    {
+      "path": "relax/network/safe_sac_jax.py",
+      "sha256": "dce84576b3956d9075aec36ef111992bd50f5d8d489039f2b91d89704d25a654",
+      "bytes": 15012
+    },
+    {
+      "path": "relax/offline/__init__.py",
+      "sha256": "a62226c92ad38cb8940361264ff8875db9b008fb01360b84d070f6a670ac46d6",
+      "bytes": 620
+    },
+    {
+      "path": "relax/offline/guardian_dsac_multiseed_dataset.py",
+      "sha256": "009f668a64e28043d7e2aa8b2cebb0003e00bc115a399d8d5b091e2191aefd57",
+      "bytes": 13679
+    },
+    {
+      "path": "relax/offline/metasafe_guardian_dataset.py",
+      "sha256": "24155ee79eb783e81c672f60f0e17c58b4db52fb11d7757f82e58997005cf859",
+      "bytes": 50203
+    },
+    {
+      "path": "relax/offline/ppo_dataset.py",
+      "sha256": "b4b59c2cdd339894924db5e0ffa27f2c8900f49ad1516e6e003d4b02854a61fe",
+      "bytes": 13090
+    },
+    {
+      "path": "relax/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "relax/utils/action_semantics.py",
+      "sha256": "48920fe6792298fcc44d2d95451aca34022fcf6ccceb0d0dcd9a427fef8f98ed",
+      "bytes": 2096
+    },
+    {
+      "path": "relax/utils/distributional_q.py",
+      "sha256": "398f5d981a080b5f74f7b1e0b77277556cdf2f897f3cc84e4bf0ec0e02e24940",
+      "bytes": 11337
+    },
+    {
+      "path": "relax/utils/experience.py",
+      "sha256": "d2628358d85dcffed0648b86939b9b619c39b2c84fdfc97651fd2c883312b52a",
+      "bytes": 28596
+    },
+    {
+      "path": "relax/utils/flow_long_run.py",
+      "sha256": "d4e20d76878f7e8247395cd024ec570ba5869f553a35fe40782b04ba7ea4e28b",
+      "bytes": 5615
+    },
+    {
+      "path": "relax/utils/flow_paper.py",
+      "sha256": "52414d008fa09718893b2809a1d98f7c2a5b87f7f384d2ef989a91126653773a",
+      "bytes": 4839
+    },
+    {
+      "path": "relax/utils/flow_v2_4_2.py",
+      "sha256": "1166fa870c7d67bf71d895d3a4870b28315349ab67681fb46d072d9e10ed6a1b",
+      "bytes": 1139
+    },
+    {
+      "path": "relax/utils/flow_v2_4_3.py",
+      "sha256": "2808d4a54b90554865d5754b4478f54e76565faf837a2fee999ec8fba4e5c37c",
+      "bytes": 13308
+    },
+    {
+      "path": "relax/utils/guardian_cross_seed_gate.py",
+      "sha256": "f2b00b2f82e8ea43cad4424189ea0e232ee814e42d3135e481227b9803d4ec6b",
+      "bytes": 7771
+    },
+    {
+      "path": "relax/utils/guardian_deployment_gate.py",
+      "sha256": "9595792f41a251d90e46a7e62e7c376a27d4775f54271aa226b8f08a3b944193",
+      "bytes": 8380
+    },
+    {
+      "path": "relax/utils/guardian_learning_gate.py",
+      "sha256": "8e445ab14c16e0ecf306e90b6d579d6cf5663328c3cc896fcdc85d9dcffed6a0",
+      "bytes": 6193
+    },
+    {
+      "path": "relax/utils/jax_utils.py",
+      "sha256": "d898e9d4a4186452d9548a18c45fcf5174e3075ea6ee1511d152080c20aff3d3",
+      "bytes": 957
+    },
+    {
+      "path": "relax/utils/persistence.py",
+      "sha256": "0327c10fe7482848e34b074167376b70b06681c3d858d8e9f69db057aa898810",
+      "bytes": 7173
+    },
+    {
+      "path": "relax/utils/typing.py",
+      "sha256": "bade1e4f7c01390158c913fac335e0320f1aed15e5db6d83c476d894150ecbc4",
+      "bytes": 51
+    },
+    {
+      "path": "scripts/__init__.py",
+      "sha256": "e53334c8ce168f30c6959004237dc1b4ec6ebf5f79ec6d7ee5ec77c8a67c9b61",
+      "bytes": 37
+    },
+    {
+      "path": "scripts/aggregate_guardian_flow_paper_results.py",
+      "sha256": "a1c9caaa9da8922294a61dbe6d6aeb0159298d07084b142451bfff94338121fa",
+      "bytes": 75683
+    },
+    {
+      "path": "scripts/audit_guardian_flow_paper_checkpoints.py",
+      "sha256": "2ad1cdff048ce64c947eee90eec701c21dafcead877de9e5ba7f0a897bc559ed",
+      "bytes": 93950
+    },
+    {
+      "path": "scripts/collect_guardian_dsac_multiseed.py",
+      "sha256": "1a1d038bac14ac4c849f57a2efff76ac49bd748d426e8dd197f2e51fa0efa322",
+      "bytes": 12591
+    },
+    {
+      "path": "scripts/collect_metasafe_cbf_dataset.py",
+      "sha256": "372eaf7010f886c4eca12d0c13d7b523a7aa1e7450b42c01577c3663f8b2f5c1",
+      "bytes": 103260
+    },
+    {
+      "path": "scripts/dispatch_guardian_flow_paper_ablations.sh",
+      "sha256": "d28ab8bd5ada42bb1f79510ac10bb7beb0a265a5cc8a2657514a63fee160738c",
+      "bytes": 8834
+    },
+    {
+      "path": "scripts/evaluate_guardian_calql_isolated.py",
+      "sha256": "8d575553d2cfce6eea2b46ba99c7b617530e7685d126541b81efca7f50381512",
+      "bytes": 23191
+    },
+    {
+      "path": "scripts/evaluate_guardian_dsac_isolated.py",
+      "sha256": "eb166efeddf3672226cb25a629b8f560094703766fbc8fcfdabaef50b4f63cf2",
+      "bytes": 33699
+    },
+    {
+      "path": "scripts/evaluate_guardian_flow_dsac_paper.py",
+      "sha256": "07557702ac04f46b3bc3cbb796cfad3d76d551f065c890be714fdabc68ba1f21",
+      "bytes": 6196
+    },
+    {
+      "path": "scripts/launch_guardian_flow_proxy_annealing_seed1.sh",
+      "sha256": "71b566d9467002d99eb6ed812650220bdc46708e65b23443a1a8c17ba41e023a",
+      "bytes": 2548
+    },
+    {
+      "path": "scripts/plot_guardian_flow_paper_curves.py",
+      "sha256": "1a2e80c293f19a14c204e061dd863e92288b7ca8162d6da8d468ef63224fd599",
+      "bytes": 3926
+    },
+    {
+      "path": "scripts/prepare_guardian_flow_proxy_annealing_1m.py",
+      "sha256": "2d9ac016fe6e4ae22f644b14ded2c8abe71a87b49736e02fdb867829b5256c47",
+      "bytes": 14064
+    },
+    {
+      "path": "scripts/prepare_guardian_flow_same_seed_ablation_1m.py",
+      "sha256": "a4087f37290dd065e4dfdccc15f03055dc3abd8c35fa97982c6b830693eed470",
+      "bytes": 18298
+    },
+    {
+      "path": "scripts/record_guardian_calql_metasafe_video.py",
+      "sha256": "daadfc4bc78b8dfd61cbf5ab5d5cdc3ca28942d059242603727276458ecc4f8b",
+      "bytes": 19848
+    },
+    {
+      "path": "scripts/run_guardian_flow_dsac_paper_suite.py",
+      "sha256": "da6583f18f81f17dcc36d77f3582bb963cafa105716f7996a197b1ec70adb8f2",
+      "bytes": 11362
+    },
+    {
+      "path": "scripts/scan_metasafe_seeds.py",
+      "sha256": "f02f197b9d922f9656a3ed75ddba94f1cf1bbcac5bc4fb54d0f03394aedd3dff",
+      "bytes": 19609
+    },
+    {
+      "path": "scripts/supervise_guardian_flow_paper_run.sh",
+      "sha256": "12c524af43bf115ffbf797cee75aa6a821f4b3a96a6cd69d725bdce011ea6817",
+      "bytes": 10052
+    },
+    {
+      "path": "scripts/train_guardian_calql_metasafe.py",
+      "sha256": "34ab60511db46f6899aeb0d99c46c59e2a9789e7d4ec240025c2b9d58852634d",
+      "bytes": 207893
+    },
+    {
+      "path": "scripts/train_guardian_calql_v2_2_simple.py",
+      "sha256": "bc8ed305baecd3bcc6b940d35572d5b1eed0ae2d517c2ad08ac2acfdee8dd3c8",
+      "bytes": 46553
+    },
+    {
+      "path": "scripts/train_guardian_dsac_metasafe.py",
+      "sha256": "495bb53d1de9b686f2af7a75c58da04e327284a30476611f120d44b0e35573c0",
+      "bytes": 66938
+    },
+    {
+      "path": "scripts/train_guardian_dsac_multiseed.py",
+      "sha256": "16d3547944a63826cfcb46f7dd81cad4c521e35ffe8108c55f182f1f4dc0a73c",
+      "bytes": 47166
+    },
+    {
+      "path": "scripts/train_guardian_flow_dsac_multiseed.py",
+      "sha256": "099cbaf873c895749560fc62afa866d8961096aef0963f85bcaa91b12756d7bb",
+      "bytes": 50328
+    },
+    {
+      "path": "scripts/train_guardian_flow_dsac_paper.py",
+      "sha256": "78ec469ae5a28140abfa0c7ce44dc3c73be58e8171a623b4ded24fa70c6bfa5e",
+      "bytes": 120077
+    },
+    {
+      "path": "scripts/video_utils.py",
+      "sha256": "f40e52bc67746f05443a916e0a6ddbbe53478332f29084ec7bf2e031d3e643fd",
+      "bytes": 5707
+    },
+    {
+      "path": "tests/test_drive_mgf_geometry.py",
+      "sha256": "12c74b45e2502b7e054a7ab209c289abf894a1841e18a67cca51626e3e6570cc",
+      "bytes": 5358
+    },
+    {
+      "path": "tests/test_drive_mgf_target.py",
+      "sha256": "7d2a72352297b4613f650c2f9cd93f84cdd949883e6897648d7333ec009852ac",
+      "bytes": 10231
+    },
+    {
+      "path": "tests/test_flat_nmpc.py",
+      "sha256": "a4b4a8c1521fbbb7242da7cd5f9809199ea48f3649fc51c56b33704b7cf639ca",
+      "bytes": 27140
+    },
+    {
+      "path": "tests/test_guardian_dsac_v2_3.py",
+      "sha256": "d95fa69d375673e0be2be0403be21679ad8eb76985ef925cb0cbdf71201fa601",
+      "bytes": 30599
+    },
+    {
+      "path": "tests/test_guardian_flow_dsac.py",
+      "sha256": "54d86067d21fbe7775f79c04e68b74413c3401acbadee829289479086d621aaa",
+      "bytes": 19889
+    },
+    {
+      "path": "tests/test_guardian_flow_dsac_paper.py",
+      "sha256": "adcaf451c9f9b0275bbf180c2e4108b2e5036268c154d070f882fd0c47a7b2fc",
+      "bytes": 43705
+    },
+    {
+      "path": "tests/test_metasafe_cbf_collection.py",
+      "sha256": "8c77fd17466b2a007a9c0c172b13953bbe1b06d939b01f5fd0900228f70e168a",
+      "bytes": 17869
+    }
+  ]
+}
